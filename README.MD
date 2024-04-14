@@ -4,8 +4,6 @@
 
 docker system prune --all --volumes
 
-[Enlace](http://localhost:8080/users)
-
 *Crear la imagen mariadb*
 
 *Crear la conexión con la base de datos*
@@ -14,11 +12,13 @@ docker system prune --all --volumes
 
 docker-compose up -d
 
-[Enlace](http://localhost:8081/users)
+[http://localhost:8081/users](http://localhost:8081/users)
 
 *Si se desea ejecutar en localhost, usar el comando:*
 
 mvn spring-boot:run
+
+[http://localhost:8080/user](http://localhost:8080/users)
 
 *Alumnos:*
 1. HA22027 Victor Andrés Hernandez Avilés
