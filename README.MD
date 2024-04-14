@@ -21,6 +21,10 @@ mvn spring-boot:run
 [http://localhost:8080/user](http://localhost:8080/users)
 
 *Alumnos:*
-1. HA22027 Victor Andrés Hernandez Avilés
-2. MR22058 Mario Alexis Miranda Reyes
-3. MR21082 Reyna Guadalupe Miranda Rivas
+
+| CARNET  |     APELLIDOS    |     NOMBRES     |
+| ------- | ---------------- | --------------- |
+| HA22027 | Hernandez Avilés | Victor Andrés   |
+| MR22058 |   Miranda Reyes  | Mario Alexis    |
+| MR21082 |   Miranda Rivas  | Reyna Guadalupe |
+
