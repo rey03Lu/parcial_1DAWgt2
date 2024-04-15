@@ -4,21 +4,21 @@
 
 docker system prune --all --volumes
 
-*Crear la imagen mariadb*
-
-*Crear la conexión con la base de datos*
-
-*Ejecutar proyecto usando el comando desde la terminal en VS Code:*
-
-docker-compose up -d
-
-[http://localhost:8081/users](http://localhost:8081/users)
-
-*Si se desea ejecutar en localhost, usar el comando:*
+1. *Si se desea ejecutar en localhost, usar el comando:*
 
 mvn spring-boot:run
 
 [http://localhost:8080/user](http://localhost:8080/users)
+
+*Pero antes debe Ccear la imagen mariadb y el contenedor*
+
+*Crear la conexión con la base de datos y ejecutar el comando anterior*
+
+2. *Ejecutar proyecto usando el comando desde la terminal en VS Code:*
+
+docker-compose up -d
+
+[http://localhost:8081/users](http://localhost:8081/users)
 
 *Alumnos:*
 
